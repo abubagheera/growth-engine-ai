@@ -4,7 +4,6 @@ const Footer = () => {
       <div className="container flex flex-col items-center justify-between gap-6 sm:flex-row">
         <a href="#" className="font-display text-lg font-bold tracking-tight">
           <span className="text-gradient">Frontier Ai</span>
-          <span className="text-foreground">.ai</span>
         </a>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Frontier Ai — All rights reserved.

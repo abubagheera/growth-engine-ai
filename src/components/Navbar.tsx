@@ -18,7 +18,6 @@ const Navbar = () => {
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="font-display text-xl font-bold tracking-tight">
           <span className="text-gradient">Frontier Ai</span>
-          <span className="text-foreground">.ai</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
