@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const stats = [
   { value: "3x", label: "More Leads Captured" },
-  { value: "95%", label: "Calls Answered" },
+  { value: "100%", label: "Calls Answered" },
   { value: "4.8★", label: "Avg Review Score" },
   { value: "40%", label: "Customer Reactivation" },
 ];
@@ -48,23 +48,6 @@ const ResultsSection = () => {
           ))}
         </div>
 
-        {/* Testimonial */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mx-auto mt-16 max-w-3xl rounded-2xl border border-primary/10 bg-card/30 p-8 text-center sm:p-12"
-        >
-          <p className="text-lg italic leading-relaxed text-foreground/90 sm:text-xl">
-            "We were losing calls every day. Within the first week, the AI agent booked 
-            14 appointments we would've missed. Our reviews went from 3.2 to 4.7 stars 
-            in two months."
-          </p>
-          <div className="mt-6">
-            <p className="font-display font-semibold">Sarah Mitchell</p>
-            <p className="text-sm text-muted-foreground">Owner, Bright Smile Dental</p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
